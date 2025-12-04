@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Немецкий стандарт</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css">
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=38aadbcb-1bb1-47fa-a0a7-3c185e0d4995&lang=ru_RU"></script>
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__top top-header">
+					<div class="top-header__body">
+						<ul class="top-header__list">
+							<li class="top-header__item item-top-header item-top-header_flex">
+								<a href="#" class="item-top-header__logo"><img src="img/header/logo.png" alt=""></a>
+								<span>Кухни на заказ в Краснодаре</span>
+							</li>
+							<li class="top-header__item item-top-header">
+								<a href="#" class="item-top-header__answer">Отвечаем на звонки с 9:00 до 21:00 без выходных</a>
+							</li>
+							<li class="top-header__item item-top-header">
+								<a href="#" class="item-top-header__location _icon-location">г. Краснодар, ул. Красных Партизан, 483</a>
+							</li>
+							<li class="top-header__item item-top-header" data-da=".top-header__list-mobile,767,2">
+								<a href="#" class="item-top-header__button"><button class="top-header__button -btn">Рассчитать
+										стоимость</button></a>
+							</li>
+							<li class="top-header__item item-top-header" data-da=".top-header__list-mobile,767,1">
+								<div class="item-top-header__contacts contacts-item-top-header">
+									<a href="tel=+78612179376" class="contacts-item-top-header__phone">+7 (8612) 17-93-76</a>
+									<a href="tel=+79892779430" class="contacts-item-top-header__phone">+7 (989) 277-94-30</a>
+									<button class="contacts-item-top-header__button">Вам перезвонить?</button>
+								</div>
+							</li>
+						</ul>
+						<ul class="top-header__list-mobile"></ul>
+					</div>
+				</div>
+				<div class="header__bottom">
+					<div class="header__menu menu">
+						<div class="menu__button-border">
+							<button type="button" class="menu__icon icon-menu"><span></span></button>
+						</div>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="" class="menu__link">Цены</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Акция</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Материалы</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Как заказать</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Наши работы</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Отзывы</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__kitchensOrder kitchensOrder">
+				<div class="kitchensOrder__container">
+					<div class="kitchensOrder__content">
+						<h1 class="kitchensOrder__title">Кухни на заказ в <span>Краснодаре</span></h1>
+						<div class="kitchensOrder__calculation">
+							<div class="kitchensOrder__price _icon-money">Цена от <span>19990 ₽ м./п</span></div>
+							<div class="kitchensOrder__making _icon-calendar">Изготовим от <span>7 дней</span></div>
+							<div class="kitchensOrder__guarantee _icon-Quality">Гарантия <span>2 года</span></div>
+						</div>
+						<div data-da=".kitchensSaleMobile,767.98,2" class="kitchensOrder__sale sale-kitchensOrder">
+							<h2 class="sale-kitchensOrder__title">Акция</h2>
+							<div class="sale-kitchensOrder__text">Скидка <span>35%</span> на Вашу кухню</div>
+							<div class="sale-kitchensOrder__saleDate">до 01.01.2022</div>
+							<form action="sendmail.php" method="POST" class="sale-kitchensOrder__form form">
+								<div class="form__line">
+									<div class="form__input">
+										<input oninput="this.value=this.value.replace(/[^0-9]/g,'')" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Введите номер телефона" class="input">
+									</div>
+								</div>
+								<button type="submit" class="button">Получить скидку</button>
+							</form>
+						</div>
+					</div>
+					<div class="kitchensOrder__image -ibg"><img src="img/kitchensOrder/main.jpg" alt=""></div>
+				</div>
+			</section>
+			<section class="kitchensSaleMobile">
+				<div class="kitchensSaleMobile__container">
+
+				</div>
+
+			</section>
+			<section class="page__services services">
+				<div class="services__container">
+					<div class="services__items">
+						<div class="services__item item-services">
+							<div class="item-services__icon _icon-Camada-2"></div>
+							<div class="item-services__text">Рассрочка 0% до 12 месяцев</div>
+						</div>
+						<div class="services__item item-services">
+							<div class="item-services__icon _icon-setup"></div>
+							<div class="item-services__text">Устанавливаем кухни с 2013 года</div>
+						</div>
+						<div class="services__item item-services">
+							<div class="item-services__icon _icon-gear"></div>
+							<div class="item-services__text">Бесплатная установка</div>
+						</div>
+						<div class="services__item item-services">
+							<div class="item-services__icon _icon-sandclock"></div>
+							<div class="item-services__text">Срок службы 20 лет</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__products products">
+				<div class="products__image -ibg">
+					<img src="img/products/bgi.jpg" alt="">
+				</div>
+				<div class="products__container">
+					<h2 class="products__title title">Какие кухни <br> <span>мы производим?</span></h2>
+					<div class="products__items">
+						<article class="products__article article-products">
+							<div class="article-products__image -ibg">
+								<img src="img/products/1.jpg" alt="">
+							</div>
+							<div class="article-products__content content-article-products">
+								<div class="content-article-products__materials materials-content-article-products">
+									<div class="materials-content-article-products__material">Материал фасадов: <span>Пластик</span></div>
+									<div class="materials-content-article-products__material">Фурнитура: <span>Fennel</span></div>
+									<div class="materials-content-article-products__material">Столешница: <span>Постформинг</span></div>
+								</div>
+								<div class="content-article-products__price">Цена: <span>от 26 850</span> <span>19 990 ₽ м./п.</span>
+								</div>
+								<div class="content-article-products__buttons buttons-content-article-products">
+									<div class="buttons-content-article-products__button btn _white">Получить каталог</div>
+									<div class="buttons-content-article-products__button btn">Рассчитать стоимость</div>
+								</div>
+							</div>
+						</article>
+						<article class="products__article article-products">
+							<div class="article-products__image -ibg">
+								<img src="img/products/2.jpg" alt="">
+							</div>
+							<div class="article-products__content content-article-products">
+								<div class="content-article-products__materials materials-content-article-products">
+									<div class="materials-content-article-products__material">Материал фасадов: <span>Крашенный МДФ и
+											шпонированный МДФ</span></div>
+									<div class="materials-content-article-products__material">Фурнитура: <span>Braun</span></div>
+									<div class="materials-content-article-products__material">Столешница: <span>Компакт-плита</span></div>
+								</div>
+								<div class="content-article-products__price">Цена: <span>от 26 620</span> <span>21 200 ₽ м./п.</span>
+								</div>
+								<div class="content-article-products__buttons buttons-content-article-products">
+									<div class="buttons-content-article-products__button btn _white">Получить каталог</div>
+									<div class="buttons-content-article-products__button btn">Рассчитать стоимость</div>
+								</div>
+							</div>
+						</article>
+						<article class="products__article article-products">
+							<div class="article-products__image -ibg">
+								<img src="img/products/3.jpg" alt="">
+							</div>
+							<div class="article-products__content content-article-products">
+								<div class="content-article-products__materials materials-content-article-products">
+									<div class="materials-content-article-products__material">Материал фасадов: <span>Пластик и
+											шпонированный МДФ</span></div>
+									<div class="materials-content-article-products__material">Фурнитура: <span>Blum</span></div>
+									<div class="materials-content-article-products__material">Столешница: <span>Постформинг</span></div>
+								</div>
+								<div class="content-article-products__price">Цена: <span>от 32 900</span> <span>24 400 ₽ м./п.</span>
+								</div>
+								<div class="content-article-products__buttons buttons-content-article-products">
+									<div class="buttons-content-article-products__button btn _white">Получить каталог</div>
+									<div class="buttons-content-article-products__button btn">Рассчитать стоимость</div>
+								</div>
+							</div>
+						</article>
+						<article class="products__article article-products">
+							<div class="article-products__image -ibg">
+								<img src="img/products/4.jpg" alt="">
+							</div>
+							<div class="article-products__content content-article-products">
+								<div class="content-article-products__materials materials-content-article-products">
+									<div class="materials-content-article-products__material">Материал фасадов: <span>Пластик</span></div>
+									<div class="materials-content-article-products__material">Фурнитура: <span>Braun</span></div>
+									<div class="materials-content-article-products__material">Столешница: <span>Постформинг</span></div>
+								</div>
+								<div class="content-article-products__price">Цена: <span>от 29 200</span> <span>21 700 ₽ м./п.</span>
+								</div>
+								<div class="content-article-products__buttons buttons-content-article-products">
+									<div class="buttons-content-article-products__button btn _white">Получить каталог</div>
+									<div class="buttons-content-article-products__button btn">Рассчитать стоимость</div>
+								</div>
+							</div>
+						</article>
+						<article class="products__article article-products">
+							<div class="article-products__image -ibg">
+								<img src="img/products/5.jpg" alt="">
+							</div>
+							<div class="article-products__content content-article-products">
+								<div class="content-article-products__materials materials-content-article-products">
+									<div class="materials-content-article-products__material">Материал фасадов: <span>Массив и
+											шпонированный МДФ</span></div>
+									<div class="materials-content-article-products__material">Фурнитура: <span>Blum</span></div>
+									<div class="materials-content-article-products__material">Столешница: <span>Компакт-плита</span></div>
+								</div>
+								<div class="content-article-products__price">Цена: <span>от 61 100</span> <span>45 300 ₽ м./п.</span>
+								</div>
+								<div class="content-article-products__buttons buttons-content-article-products">
+									<div class="buttons-content-article-products__button btn _white">Получить каталог</div>
+									<div class="buttons-content-article-products__button btn">Рассчитать стоимость</div>
+								</div>
+							</div>
+						</article>
+						<article class="products__article article-products">
+							<div class="article-products__image -ibg">
+								<img src="img/products/6.jpg" alt="">
+							</div>
+							<div class="article-products__content content-article-products">
+								<div class="content-article-products__materials materials-content-article-products">
+									<div class="materials-content-article-products__material">Материал фасадов: <span>Крашенный МДФ и
+											шпонированный МДФ</span></div>
+									<div class="materials-content-article-products__material">Фурнитура: <span>Hettich</span></div>
+									<div class="materials-content-article-products__material">Столешница: <span>Постформинг</span></div>
+								</div>
+								<div class="content-article-products__price">Цена: <span>от 34 600</span> <span>25 700 ₽ м./п.</span>
+								</div>
+								<div class="content-article-products__buttons buttons-content-article-products">
+									<div class="buttons-content-article-products__button btn _white">Получить каталог</div>
+									<div class="buttons-content-article-products__button btn">Рассчитать стоимость</div>
+								</div>
+							</div>
+						</article>
+						<article class="products__article article-products">
+							<div class="article-products__image -ibg">
+								<img src="img/products/7.jpg" alt="">
+							</div>
+							<div class="article-products__content content-article-products">
+								<div class="content-article-products__materials materials-content-article-products">
+									<div class="materials-content-article-products__material">Материал фасадов: <span>Крашенный МДФ</span>
+									</div>
+									<div class="materials-content-article-products__material">Фурнитура: <span>Hettich</span></div>
+									<div class="materials-content-article-products__material">Столешница: <span>Искусственный
+											камень</span></div>
+								</div>
+								<div class="content-article-products__price">Цена: <span>от 32 200</span> <span>23 900 ₽ м./п.</span>
+								</div>
+								<div class="content-article-products__buttons buttons-content-article-products">
+									<div class="buttons-content-article-products__button btn _white">Получить каталог</div>
+									<div class="buttons-content-article-products__button btn">Рассчитать стоимость</div>
+								</div>
+							</div>
+						</article>
+						<article class="products__article article-products">
+							<div class="article-products__image -ibg">
+								<img src="img/products/8.jpg" alt="">
+							</div>
+							<div class="article-products__content content-article-products">
+								<div class="content-article-products__materials materials-content-article-products">
+									<div class="materials-content-article-products__material">Материал фасадов: <span>Крашенный МДФ</span>
+									</div>
+									<div class="materials-content-article-products__material">Фурнитура: <span>Hettich</span></div>
+									<div class="materials-content-article-products__material">Столешница: <span>Компакт панель</span>
+									</div>
+								</div>
+								<div class="content-article-products__price">Цена: <span>от 26 850</span> <span>19 990 ₽ м./п.</span>
+								</div>
+								<div class="content-article-products__buttons buttons-content-article-products">
+									<div class="buttons-content-article-products__button btn _white">Получить каталог</div>
+									<div class="buttons-content-article-products__button btn">Рассчитать стоимость</div>
+								</div>
+							</div>
+						</article>
+						<article class="products__article article-products">
+							<div class="article-products__image -ibg">
+								<img src="img/products/9.jpg" alt="">
+							</div>
+							<div class="article-products__content content-article-products">
+								<div class="content-article-products__materials materials-content-article-products">
+									<div class="materials-content-article-products__material">Материал фасадов: <span>Крашенный МДФ</span>
+									</div>
+									<div class="materials-content-article-products__material">Фурнитура: <span>Blum</span></div>
+									<div class="materials-content-article-products__material">Столешница: <span>Постформинг</span></div>
+								</div>
+								<div class="content-article-products__price">Цена: <span>от 27 300</span> <span>20 200 ₽ м./п.</span>
+								</div>
+								<div class="content-article-products__buttons buttons-content-article-products">
+									<div class="buttons-content-article-products__button btn _white">Получить каталог</div>
+									<div class="buttons-content-article-products__button btn">Рассчитать стоимость</div>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="page__products-slider products-slider">
+				<div class="products-slider__image -ibg">
+					<img src="img/products/bgi.jpg" alt="">
+				</div>
+				<div class="products-slider__container">
+					<div class="products-slider__header header-products-slider">
+						<div class="header-products-slider__title title">Какие кухни <span>мы производим?</span></div>
+						<div class="header-products-slider__arrows arrows-header-products-slider">
+							<div class="arrows-header-products-slider__prev _icon-arrowslider"></div>
+							<div class="arrows-header-products-slider__next _icon-arrowslider"></div>
+						</div>
+					</div>
+					<div class="products-slider__slider slider-products-slider">
+						<div class="slider-products-slider__slider swiper">
+							<div class="slider-products-slider__wrapper swiper-wrapper">
+								<div class="slider-products-slider__slide slide-slider-products-slider swiper-slide">
+									<article class="slide-slider-products-slider__article article-slide-slider-products-slider">
+										<div class="article-slide-slider-products-slider__image -ibg">
+											<img src="img/products/1.jpg" alt="">
+										</div>
+										<div class="article-slide-slider-products-slider__content content-article-slide-slider-products-slider">
+											<div class="content-article-slide-slider-products-slider__materials materials-content-article-slide-slider-products-slider">
+												<div class="materials-content-article-slide-slider-products-slider__material">Материал фасадов:
+													<span>Пластик</span>
+												</div>
+												<div class="materials-content-article-slide-slider-products-slider__material">Фурнитура:
+													<span>Fennel</span>
+												</div>
+												<div class="materials-content-article-slide-slider-products-slider__material">Столешница:
+													<span>Постформинг</span>
+												</div>
+											</div>
+											<div class="content-article-slide-slider-products-slider__price">Цена: <span>от 26 850</span>
+												<span>19 990 ₽
+													м./п.</span>
+											</div>
+											<div class="content-article-slide-slider-products-slider__buttons buttons-content-article-slide-slider-products-slider">
+												<div class="buttons-content-article-slide-slider-products-slider__button btn _white">Получить
+													каталог</div>
+												<div class="buttons-content-article-slide-slider-products-slider__button btn">Рассчитать
+													стоимость</div>
+											</div>
+										</div>
+									</article>
+								</div>
+								<div class="slider-products-slider__slide slide-slider-products-slider swiper-slide">
+									<article class="slide-slider-products-slider__article article-slide-slider-products-slider">
+										<div class="article-slide-slider-products-slider__image -ibg">
+											<img src="img/products/1.jpg" alt="">
+										</div>
+										<div class="article-slide-slider-products-slider__content content-article-slide-slider-products-slider">
+											<div class="content-article-slide-slider-products-slider__materials materials-content-article-slide-slider-products-slider">
+												<div class="materials-content-article-slide-slider-products-slider__material">Материал фасадов:
+													<span>Пластик</span>
+												</div>
+												<div class="materials-content-article-slide-slider-products-slider__material">Фурнитура:
+													<span>Fennel</span>
+												</div>
+												<div class="materials-content-article-slide-slider-products-slider__material">Столешница:
+													<span>Постформинг</span>
+												</div>
+											</div>
+											<div class="content-article-slide-slider-products-slider__price">Цена: <span>от 26 850</span>
+												<span>19 990 ₽
+													м./п.</span>
+											</div>
+											<div class="content-article-slide-slider-products-slider__buttons buttons-content-article-slide-slider-products-slider">
+												<div class="buttons-content-article-slide-slider-products-slider__button btn _white">Получить
+													каталог</div>
+												<div class="buttons-content-article-slide-slider-products-slider__button btn">Рассчитать
+													стоимость</div>
+											</div>
+										</div>
+									</article>
+								</div>
+								<div class="slider-products-slider__slide slide-slider-products-slider swiper-slide">
+									<article class="slide-slider-products-slider__article article-slide-slider-products-slider">
+										<div class="article-slide-slider-products-slider__image -ibg">
+											<img src="img/products/1.jpg" alt="">
+										</div>
+										<div class="article-slide-slider-products-slider__content content-article-slide-slider-products-slider">
+											<div class="content-article-slide-slider-products-slider__materials materials-content-article-slide-slider-products-slider">
+												<div class="materials-content-article-slide-slider-products-slider__material">Материал фасадов:
+													<span>Пластик</span>
+												</div>
+												<div class="materials-content-article-slide-slider-products-slider__material">Фурнитура:
+													<span>Fennel</span>
+												</div>
+												<div class="materials-content-article-slide-slider-products-slider__material">Столешница:
+													<span>Постформинг</span>
+												</div>
+											</div>
+											<div class="content-article-slide-slider-products-slider__price">Цена: <span>от 26 850</span>
+												<span>19 990 ₽
+													м./п.</span>
+											</div>
+											<div class="content-article-slide-slider-products-slider__buttons buttons-content-article-slide-slider-products-slider">
+												<div class="buttons-content-article-slide-slider-products-slider__button btn _white">Получить
+													каталог</div>
+												<div class="buttons-content-article-slide-slider-products-slider__button btn">Рассчитать
+													стоимость</div>
+											</div>
+										</div>
+									</article>
+								</div>
+								<div class="slider-products-slider__slide slide-slider-products-slider swiper-slide">
+									<article class="slide-slider-products-slider__article article-slide-slider-products-slider">
+										<div class="article-slide-slider-products-slider__image -ibg">
+											<img src="img/products/1.jpg" alt="">
+										</div>
+										<div class="article-slide-slider-products-slider__content content-article-slide-slider-products-slider">
+											<div class="content-article-slide-slider-products-slider__materials materials-content-article-slide-slider-products-slider">
+												<div class="materials-content-article-slide-slider-products-slider__material">Материал фасадов:
+													<span>Пластик</span>
+												</div>
+												<div class="materials-content-article-slide-slider-products-slider__material">Фурнитура:
+													<span>Fennel</span>
+												</div>
+												<div class="materials-content-article-slide-slider-products-slider__material">Столешница:
+													<span>Постформинг</span>
+												</div>
+											</div>
+											<div class="content-article-slide-slider-products-slider__price">Цена: <span>от 26 850</span>
+												<span>19 990 ₽
+													м./п.</span>
+											</div>
+											<div class="content-article-slide-slider-products-slider__buttons buttons-content-article-slide-slider-products-slider">
+												<div class="buttons-content-article-slide-slider-products-slider__button btn _white">Получить
+													каталог</div>
+												<div class="buttons-content-article-slide-slider-products-slider__button btn">Рассчитать
+													стоимость</div>
+											</div>
+										</div>
+									</article>
+								</div>
+								<div class="slider-products-slider__slide slide-slider-products-slider swiper-slide">
+									<article class="slide-slider-products-slider__article article-slide-slider-products-slider">
+										<div class="article-slide-slider-products-slider__image -ibg">
+											<img src="img/products/1.jpg" alt="">
+										</div>
+										<div class="article-slide-slider-products-slider__content content-article-slide-slider-products-slider">
+											<div class="content-article-slide-slider-products-slider__materials materials-content-article-slide-slider-products-slider">
+												<div class="materials-content-article-slide-slider-products-slider__material">Материал фасадов:
+													<span>Пластик</span>
+												</div>
+												<div class="materials-content-article-slide-slider-products-slider__material">Фурнитура:
+													<span>Fennel</span>
+												</div>
+												<div class="materials-content-article-slide-slider-products-slider__material">Столешница:
+													<span>Постформинг</span>
+												</div>
+											</div>
+											<div class="content-article-slide-slider-products-slider__price">Цена: <span>от 26 850</span>
+												<span>19 990 ₽
+													м./п.</span>
+											</div>
+											<div class="content-article-slide-slider-products-slider__buttons buttons-content-article-slide-slider-products-slider">
+												<div class="buttons-content-article-slide-slider-products-slider__button btn _white">Получить
+													каталог</div>
+												<div class="buttons-content-article-slide-slider-products-slider__button btn">Рассчитать
+													стоимость</div>
+											</div>
+										</div>
+									</article>
+								</div>
+								<div class="slider-products-slider__slide slide-slider-products-slider swiper-slide">
+									<article class="slide-slider-products-slider__article article-slide-slider-products-slider">
+										<div class="article-slide-slider-products-slider__image -ibg">
+											<img src="img/products/1.jpg" alt="">
+										</div>
+										<div class="article-slide-slider-products-slider__content content-article-slide-slider-products-slider">
+											<div class="content-article-slide-slider-products-slider__materials materials-content-article-slide-slider-products-slider">
+												<div class="materials-content-article-slide-slider-products-slider__material">Материал фасадов:
+													<span>Пластик</span>
+												</div>
+												<div class="materials-content-article-slide-slider-products-slider__material">Фурнитура:
+													<span>Fennel</span>
+												</div>
+												<div class="materials-content-article-slide-slider-products-slider__material">Столешница:
+													<span>Постформинг</span>
+												</div>
+											</div>
+											<div class="content-article-slide-slider-products-slider__price">Цена: <span>от 26 850</span>
+												<span>19 990 ₽
+													м./п.</span>
+											</div>
+											<div class="content-article-slide-slider-products-slider__buttons buttons-content-article-slide-slider-products-slider">
+												<div class="buttons-content-article-slide-slider-products-slider__button btn _white">Получить
+													каталог</div>
+												<div class="buttons-content-article-slide-slider-products-slider__button btn">Рассчитать
+													стоимость</div>
+											</div>
+										</div>
+									</article>
+
+								</div>
+								<div class="slider-products-slider__slide slide-slider-products-slider swiper-slide">
+									<article class="slide-slider-products-slider__article article-slide-slider-products-slider">
+										<div class="article-slide-slider-products-slider__image -ibg">
+											<img src="img/products/1.jpg" alt="">
+										</div>
+										<div class="article-slide-slider-products-slider__content content-article-slide-slider-products-slider">
+											<div class="content-article-slide-slider-products-slider__materials materials-content-article-slide-slider-products-slider">
+												<div class="materials-content-article-slide-slider-products-slider__material">Материал фасадов:
+													<span>Пластик</span>
+												</div>
+												<div class="materials-content-article-slide-slider-products-slider__material">Фурнитура:
+													<span>Fennel</span>
+												</div>
+												<div class="materials-content-article-slide-slider-products-slider__material">Столешница:
+													<span>Постформинг</span>
+												</div>
+											</div>
+											<div class="content-article-slide-slider-products-slider__price">Цена: <span>от 26 850</span>
+												<span>19 990 ₽
+													м./п.</span>
+											</div>
+											<div class="content-article-slide-slider-products-slider__buttons buttons-content-article-slide-slider-products-slider">
+												<div class="buttons-content-article-slide-slider-products-slider__button btn _white">Получить
+													каталог</div>
+												<div class="buttons-content-article-slide-slider-products-slider__button btn">Рассчитать
+													стоимость</div>
+											</div>
+										</div>
+									</article>
+
+								</div>
+								<div class="slider-products-slider__slide slide-slider-products-slider swiper-slide">
+									<article class="slide-slider-products-slider__article article-slide-slider-products-slider">
+										<div class="article-slide-slider-products-slider__image -ibg">
+											<img src="img/products/1.jpg" alt="">
+										</div>
+										<div class="article-slide-slider-products-slider__content content-article-slide-slider-products-slider">
+											<div class="content-article-slide-slider-products-slider__materials materials-content-article-slide-slider-products-slider">
+												<div class="materials-content-article-slide-slider-products-slider__material">Материал фасадов:
+													<span>Пластик</span>
+												</div>
+												<div class="materials-content-article-slide-slider-products-slider__material">Фурнитура:
+													<span>Fennel</span>
+												</div>
+												<div class="materials-content-article-slide-slider-products-slider__material">Столешница:
+													<span>Постформинг</span>
+												</div>
+											</div>
+											<div class="content-article-slide-slider-products-slider__price">Цена: <span>от 26 850</span>
+												<span>19 990 ₽
+													м./п.</span>
+											</div>
+											<div class="content-article-slide-slider-products-slider__buttons buttons-content-article-slide-slider-products-slider">
+												<div class="buttons-content-article-slide-slider-products-slider__button btn _white">Получить
+													каталог</div>
+												<div class="buttons-content-article-slide-slider-products-slider__button btn">Рассчитать
+													стоимость</div>
+											</div>
+										</div>
+									</article>
+
+								</div>
+								<div class="slider-products-slider__slide slide-slider-products-slider swiper-slide">
+									<article class="slide-slider-products-slider__article article-slide-slider-products-slider">
+										<div class="article-slide-slider-products-slider__image -ibg">
+											<img src="img/products/1.jpg" alt="">
+										</div>
+										<div class="article-slide-slider-products-slider__content content-article-slide-slider-products-slider">
+											<div class="content-article-slide-slider-products-slider__materials materials-content-article-slide-slider-products-slider">
+												<div class="materials-content-article-slide-slider-products-slider__material">Материал фасадов:
+													<span>Пластик</span>
+												</div>
+												<div class="materials-content-article-slide-slider-products-slider__material">Фурнитура:
+													<span>Fennel</span>
+												</div>
+												<div class="materials-content-article-slide-slider-products-slider__material">Столешница:
+													<span>Постформинг</span>
+												</div>
+											</div>
+											<div class="content-article-slide-slider-products-slider__price">Цена: <span>от 26 850</span>
+												<span>19 990 ₽
+													м./п.</span>
+											</div>
+											<div class="content-article-slide-slider-products-slider__buttons buttons-content-article-slide-slider-products-slider">
+												<div class="buttons-content-article-slide-slider-products-slider__button btn _white">Получить
+													каталог</div>
+												<div class="buttons-content-article-slide-slider-products-slider__button btn">Рассчитать
+													стоимость</div>
+											</div>
+										</div>
+									</article>
+
+								</div>
+							</div>
+						</div>
+						<div class="products-slider__controlls controlls-products-slider">
+							<div class="controlls-products-slider__dotts"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__types types">
+				<div class="types__container">
+					<div class="types__header">
+						<h2 class="types__title title">Не нашли нужную модель?<span>Она у нас точно есть!</span></h2>
+						<h3 class="types__subtitle">Мы установили более <span>3000</span> кухонь на заказ! Получите подробный
+							каталог</h3>
+					</div>
+					<div class="types__items">
+						<div class="types__item">
+							<article class="types__article article-types">
+								<div class="article-types__image -ibg">
+									<img src="img/types/1.jpg" alt="Современные">
+								</div>
+								<div class="article-types__content content-article-types">
+									<div class="content-article-types__title">Современные кухни</div>
+									<div class="content-article-types__text">У нас более <span>650</span> моделей современных кухонь.
+									</div>
+									<button type="submit" class="content-article-types__button btn">Получить каталог</button>
+								</div>
+							</article>
+						</div>
+						<div class="types__item">
+							<article class="types__article article-types">
+								<div class="article-types__image -ibg">
+									<img src="img/types/2.jpg" alt="Лофт">
+								</div>
+								<div class="article-types__content content-article-types">
+									<div class="content-article-types__title">Кухни Лофт</div>
+									<div class="content-article-types__text">У нас более <span>470</span> моделей кухонь в стиле Лофт.
+									</div>
+									<button type="submit" class="content-article-types__button btn">Получить каталог</button>
+								</div>
+							</article>
+						</div>
+						<div class="types__item">
+							<article class="types__article article-types">
+								<div class="article-types__image -ibg">
+									<img src="img/types/3.jpg" alt="Классические">
+								</div>
+								<div class="article-types__content content-article-types">
+									<div class="content-article-types__title">Классические кухни</div>
+									<div class="content-article-types__text">У нас более <span>730</span> моделей классических кухонь.
+									</div>
+									<button type="submit" class="content-article-types__button btn">Получить каталог</button>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__design design">
+				<div class="design__container">
+					<div class="design__header">
+						<div class="design__title title">Не знаете какой выбрать <span>дизайн кухни?</span></div>
+					</div>
+					<div class="design__items body-items">
+						<div class="body-items__slider swiper">
+							<div class="body-items__wrapper swiper-wrapper">
+								<div class="body-items__slide slide-body-items swiper-slide">
+									<div class="slide-body-items__image -ibg">
+										<img src="img/design/julia.jpg" alt="">
+									</div>
+									<div class="slide-body-items__info"><span>Юлия</span>, Дизайнер кухонь, работает с <span>2013</span> года.
+									</div>
+								</div>
+								<div class="body-items__slide slide-body-items swiper-slide">
+									<div class="slide-body-items__image -ibg">
+										<img src="img/design/oksy.jpg" alt="">
+									</div>
+									<div class="slide-body-items__info"><span>Оксана</span>, Дизайнер кухонь, работает с
+										<span>2011</span> года
+									</div>
+								</div>
+								<div class="body-items__slide slide-body-items swiper-slide">
+									<div class="slide-body-items__image -ibg">
+										<img src="img/design/taty.jpg" alt="">
+									</div>
+									<div class="slide-body-items__info"><span>Татьяна</span>, Дизайнер кухонь, работает с
+										<span>2015</span> года
+									</div>
+								</div>
+							</div>
+							<div class="body-items__arrows arrows-body-items">
+								<div class="arrows-body-items__arrow-prev _icon-arrowslider"></div>
+								<div class="arrows-body-items__arrow-next _icon-arrowslider"></div>
+							</div>
+						</div>
+						<div class="body-items__group">
+							<div class="body-items__info info-body-items ">
+								<div class="info-body-items__title">Обратитесь к нашим <span>дизайнерам!</span></div>
+								<div class="info-body-items__subtitle">Более 3000 клиентов благодарны нашим дизайнерам за:</div>
+								<ul class="info-body-items__list">
+									<li class="info-body-items__item _icon-check">Скрупулезную и терпеливую работу по созданию
+										проекта идеальной кухни. </li>
+									<li class="info-body-items__item _icon-check">Подбор материалов с экономией до 60% без потери
+										качества. </li>
+									<li class="info-body-items__item _icon-check">100% соответствие дизайн-проекта с реальностью.
+									</li>
+								</ul>
+							</div>
+							<div class="body-items__item item-body-items">
+								<div class="item-body-items__info">Оставьте свой номер телефона и наш дизайнер свяжется c Вами в ближайшее время </div>
+								<form data-ajax data-popup-message="#popup" action="sendmail.php" method="POST" class="item-body-items__form form">
+									<div class="item-body-items__line">
+										<div class="item-body-items__input">
+											<input oninput="this.value=this.value.replace(/[^0-9]/g,'')" autocomplete=" off" type="text" name="form[]" data-error="Ошибка" placeholder="Введите номер" class="input">
+										</div>
+									</div>
+									<button type="submit" class="item-body-items__button button">Получить консультацию</button>
+									<button type="submit" class="item-body-items__button button">Прикрепить свой проект</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__solutions solutions">
+				<div class="solutions__backimage -ibg">
+					<img src="img/solutions/bck.jpg" alt="Задний фон">
+				</div>
+				<div class="solutions__container">
+					<div class="solutions__header">
+						<div class="header-solutions">
+							<div class="header-solutions__title title">Наши <span>дополнительные решения</span> для Вашей кухни</div>
+						</div>
+					</div>
+					<div class="solutions__body body-solutions">
+						<div class="body-solutions__items">
+							<div class="body-solutions__item item-body-solutions">
+								<div class="item-body-solutions__body body-item-body-solutions">
+									<div class="body-item-body-solutions__image -ibg">
+										<img src="img/solutions/1.jpg" alt="">
+									</div>
+									<div class="body-item-body-solutions__contenet">
+										<div class="body-item-body-solutions__subtitle">Подключение техники для кухни</div>
+										<button class="body-item-body-solutions__button btn">Получить консультацию</button>
+									</div>
+								</div>
+							</div>
+							<div class="body-solutions__item item-body-solutions">
+								<div class="item-body-solutions__body body-item-body-solutions">
+									<div class="body-item-body-solutions__image -ibg">
+										<img src="img/solutions/2.jpg" alt="">
+									</div>
+									<div class="body-item-body-solutions__contenet">
+										<div class="body-item-body-solutions__subtitle">Подключение освещения</div>
+										<button class="body-item-body-solutions__button btn">Получить консультацию</button>
+									</div>
+								</div>
+							</div>
+							<div class="body-solutions__item item-body-solutions">
+								<div class="item-body-solutions__body body-item-body-solutions">
+									<div class="body-item-body-solutions__image -ibg">
+										<img src="img/solutions/3.jpg" alt="">
+									</div>
+									<div class="body-item-body-solutions__contenet">
+										<div class="body-item-body-solutions__subtitle">Подключение сантехники</div>
+										<button class="body-item-body-solutions__button btn">Получить консультацию</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__ours ours">
+				<div class="ours__container">
+					<div class="ours__header-ours">
+						<div class="ours-header__title title">Почему выбирают <span>наши кухни?</span></div>
+					</div>
+					<div class="ours__body body-ours">
+						<div class="body-ours__items">
+							<div class="items-body-ours__item item-items-body-ours">
+								<div class="item-items-body-ours__image -ibg">
+									<img src="img/ours/1.jpg" alt="">
+								</div>
+								<div class="item-items-body-ours__content">
+									<div class="content-item-items-body-ours__title">Современные фасады</div>
+									<div class="content-item-items-body-ours__text">Наши фасады на <span>40%</span> долговечнее обычных, так как они влагоустойчивы и не подвержены повреждениям. В наличии более
+										<span>250</span>
+										фактур и <span>2000</span> оттенков.
+									</div>
+								</div>
+							</div>
+							<div class="items-body-ours__item item-items-body-ours">
+								<div class="item-items-body-ours__image -ibg">
+									<img src="img/ours/2.jpg" alt="">
+								</div>
+								<div class="item-items-body-ours__content">
+									<div class="content-item-items-body-ours__title">Прочные столешницы</div>
+									<div class="content-item-items-body-ours__text">Наши столешницы на <span>25%</span> прочнее и в <span>2</span> раза влагоустойчивее чем обычные. В наличии <span>10</span> покрытий и
+										<span>170</span> вариантов расцветок и фактур.
+									</div>
+								</div>
+							</div>
+							<div class="items-body-ours__item item-items-body-ours">
+								<div class="item-items-body-ours__image -ibg">
+									<img src="img/ours/3.jpg" alt="">
+								</div>
+								<div class="item-items-body-ours__content">
+									<div class="content-item-items-body-ours__title">Долговечная и функциональная фурнитура</div>
+									<div class="content-item-items-body-ours__text">Выдерживает более <span>20</span> лет службы. Создает максимальный комфорт и удобство пользования кухней.
+									</div>
+								</div>
+							</div>
+							<div class="items-body-ours__item item-items-body-ours">
+								<div class="item-items-body-ours__image -ibg">
+									<img src="img/ours/4.jpg" alt="">
+								</div>
+								<div class="item-items-body-ours__content">
+									<div class="content-item-items-body-ours__title">Полный комплект документов</div>
+									<div class="content-item-items-body-ours__text">Вы получите: договор, кассовый чек, гарантийный талон и правила эксплуатации. Это гарантирует защиту Ваших прав.</div>
+								</div>
+							</div>
+							<div class="items-body-ours__item item-items-body-ours">
+								<div class="item-items-body-ours__image -ibg">
+									<img src="img/ours/5.jpg" alt="">
+								</div>
+								<div class="item-items-body-ours__content">
+									<div class="content-item-items-body-ours__title">Опытные и вежливые сборщики</div>
+									<div class="content-item-items-body-ours__text">Наши сборщики вежливы и аккуратны. Соберут, установят и вынесут строительный мусор. Имеют стаж работы с кухнями не менее
+										<span>6</span> лет.
+									</div>
+								</div>
+							</div>
+							<div class="items-body-ours__item item-items-body-ours">
+								<div class="item-items-body-ours__image -ibg">
+									<img src="img/ours/6.jpg" alt="">
+								</div>
+								<div class="item-items-body-ours__content">
+									<div class="content-item-items-body-ours__title">Бесплатная доставка и сборка кухни</div>
+									<div class="content-item-items-body-ours__text">Мы бесплатно доставим, соберем и установим Вашу кухню в любой точке Краснодара.</div>
+								</div>
+							</div>
+						</div>
+						<div class="body-ours__buttons buttons-body-ours">
+							<button class="buttons-body-ours__button btn">Рассчитать стоимость</button>
+							<button class="buttons-body-ours__button btn _white">Получить весь каталог</button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<div class="popup__title">Заказать обратный <br> звонок</div>
+			<form data-ajax data-popup-message="#popup" action="sendmail.php" method="POST" class="form">
+				<div class="form__line">
+					<div class="form__input">
+						<input autocomplete="off" type="text" name="name" data-error="Ошибка" placeholder="Имя" class="input">
+					</div>
+				</div>
+				<div class="form__line">
+					<div class="form__input">
+						<input autocomplete="off" type="text" name="phone" data-required="tel" data-validate
+							data-error="Введите номер в формате 7 (XXX) XXX-XX-XX" placeholder="Телефон" class="input phone-input">
+					</div>
+				</div>
+				<div class="form__line">
+					<div class="form__input">
+						<textarea autocomplete="off" name="message" data-error="Ошибка" placeholder="Сообщение"
+							class="input"></textarea>
+					</div>
+				</div>
+				<div class="form__linecheck">
+					<div class="form__inputcheck">
+						<input autocomplete="off" type="checkbox" name="checkagree" data-error="Ошибка" placeholder="#"
+							id="agreeCheckbox" class="checkbox" checked>
+						<label for="agreeCheckbox">Я согласен с обработкой персональных данных</label>
+					</div>
+				</div>
+				<button id="submitButton" type="submit" class="button btn">Отправить</button>
+			</form>
+			<button data-close type="button" class="popup__close">Закрыть</button>
+		</div>
+		<div class="popup__text">
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
